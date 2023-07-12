@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     font-size: 25px;
-    margin-left: -5px;
+    margin-left: 5px;
   }
 
   aside {
@@ -40,10 +40,10 @@
   }
 
   .glow-on-hover {
-    position: fixed;
-    bottom: 300px;
+    position: relative;
+    bottom: -40px;
     left: 50%;
-    margin-top: -15px;
+    margin-top: -40px;
     transform: translateX(-50%);
     
   }
