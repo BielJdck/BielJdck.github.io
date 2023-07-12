@@ -1,23 +1,23 @@
-body{
+body {
   font-family: Josefin Sans;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.dark-theme{
+.dark-theme {
   width: 20px;
   height: 20px;
 }
 
-.light-theme{
+.light-theme {
   width: 20px;
   height: 20px;
 }
@@ -26,15 +26,16 @@ li {
   display: inline-block;
   margin: 20px;
   padding-left: 15px;
-  padding-right:   10px;
-  
+  padding-right: 10px;
+
 }
 
 a {
   color: black;
 }
+
 a:hover {
-  color: rgb(139,0,0);
+  color: rgb(139, 0, 0);
   transition: 0.3s all;
 }
 
@@ -45,13 +46,19 @@ main {
   margin-top: 60px;
 }
 
-h1{
+h1 {
   font-size: 87px;
   font-weight: bold;
 }
 
 p {
   font-size: 30px;
+}
+
+.vampiro {
+  width: 300px;
+  heigth: 350px;
+  margin-right: 10px;
 }
 
 .glow-on-hover {
@@ -66,13 +73,13 @@ p {
   z-index: 0;
   border-radius: 15px;
   font-family: Josefin Sans;
-  
+  font-size: 15px;
+
 }
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #8B0000, #8B0000, #8B0000)
-  position: absolute;
+  background: linear-gradient(45deg, #8B0000, #8B0000, #8B0000) position: absolute;
   top: -2px;
   left: -2px;
   background-size: 400%;
@@ -111,13 +118,15 @@ p {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 600% 0; }
-  100% { background-position: 0 0; }
-}
+  0% {
+    background-position: 0 0;
+  }
 
-.vampiro {
-  width: 300px;
-  heigth: 350px;
-  margin-right: 10px;
+  50% {
+    background-position: 600% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
