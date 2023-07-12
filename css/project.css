@@ -1,0 +1,28 @@
+body {
+  font-family: Josefin Sans;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seta {
+  width: 20px;
+  height: 20px;
+}
+
+.lua {
+  width: 20px;
+  height: 20px;
+}
+
+#lua {
+  display: flex;
+  justify-content: flex-end;
+}

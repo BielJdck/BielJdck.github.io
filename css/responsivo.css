@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     font-size: 60px;
+    
   }
 
   p {
@@ -33,7 +34,7 @@
     font-size: 25px;
     margin-left: 5px;
   }
-
+  
   aside {
     position: relative;
     
@@ -47,5 +48,4 @@
     transform: translateX(-50%);
     
   }
-  
 }

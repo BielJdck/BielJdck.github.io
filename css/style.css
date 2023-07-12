@@ -12,12 +12,12 @@ header {
   align-items: center;
 }
 
-.dark-theme {
+.sol {
   width: 20px;
   height: 20px;
 }
 
-.light-theme {
+.lua {
   width: 20px;
   height: 20px;
 }
@@ -53,6 +53,10 @@ h1 {
 
 p {
   font-size: 30px;
+}
+
+span {
+  color: rgb(139, 0, 0);
 }
 
 .vampiro {
