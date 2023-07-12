@@ -30,8 +30,8 @@
   p {
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 25px;
+    margin-left: -5px;
   }
 
   aside {
@@ -41,8 +41,9 @@
 
   .glow-on-hover {
     position: fixed;
-    bottom: 150px;
+    bottom: 300px;
     left: 50%;
+    margin-top: -15px;
     transform: translateX(-50%);
     
   }
