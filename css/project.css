@@ -13,8 +13,8 @@ header {
 }
 
 .seta {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .lua {
@@ -25,4 +25,63 @@ header {
 #lua {
   display: flex;
   justify-content: flex-end;
+}
+
+.imgBot {
+  width: 50%;
+  height: 50%;
+  margin-left: 230px;
+  border-radius: 10px;
+  filter: drop-shadow(0 5px 4px black);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+}
+
+h1 {
+  font-size: 87px;
+  font-weight: bold;
+  margin-left: 220px;
+  filter: drop-shadow(0 2px 1px black);
+}
+
+p {
+  font-size: 15px;
+  white-space: pre-line;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+aside {
+  padding: 50px;
+}
+
+a {
+  color: rgb(139 0 0 );
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#discord {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+#github {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
 }

@@ -32,6 +32,7 @@ li {
 
 a {
   color: black;
+  text-decoration: none;  
 }
 
 a:hover {
@@ -49,10 +50,13 @@ main {
 h1 {
   font-size: 87px;
   font-weight: bold;
+  filter: drop-shadow(0 2px 1px black);
+  margin-left: 13px;
 }
 
 p {
   font-size: 30px;
+  text-align: center;
 }
 
 span {
@@ -63,6 +67,7 @@ span {
   width: 300px;
   heigth: 350px;
   margin-right: 10px;
+  filter: drop-shadow(0 2px 2px black);
 }
 
 .glow-on-hover {
@@ -78,6 +83,9 @@ span {
   border-radius: 15px;
   font-family: Josefin Sans;
   font-size: 15px;
+  filter: drop-shadow(0 3px 5px black);
+  margin-left: 130px;
+  
 
 }
 
@@ -133,4 +141,23 @@ span {
   100% {
     background-position: 0 0;
   }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#discord {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+#github {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
 }
