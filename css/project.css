@@ -1,6 +1,6 @@
 body {
   font-family: Josefin Sans;
-  max-width: 1200px;
+  max-width: 1366px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -28,9 +28,9 @@ header {
 }
 
 .imgBot {
-  width: 50%;
+  width: 70%;
   height: 50%;
-  margin-left: 230px;
+  margin-left: 200px;
   border-radius: 10px;
   filter: drop-shadow(0 5px 4px black);
 }
@@ -40,22 +40,22 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
+  position: relative;  
   top: -30px;
 }
 
 h1 {
-  font-size: 87px;
+  font-size: 100px;
   font-weight: bold;
-  margin-left: 220px;
+  margin-left: 240px;
   filter: drop-shadow(0 2px 1px black);
 }
 
 p {
-  font-size: 15px;
-  white-space: pre-line;
-  line-height: 1.5;
+  font-size: 40px;
   margin-left: 10px;
+  text-align: center;
+  
 }
 
 aside {
